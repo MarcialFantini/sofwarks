@@ -1,0 +1,110 @@
+.header {
+  min-height: 100vh;
+
+  position: relative;
+}
+
+.picture {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cube {
+  width: 55%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  z-index: 2;
+
+  border-radius: 0 50px 50px 0;
+
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.containerTitle {
+  width: 100%;
+  max-width: 600px;
+
+  margin-left: auto;
+}
+
+.title {
+  color: white;
+  font-size: 6rem;
+}
+
+.lines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+
+  overflow: hidden;
+}
+
+.lines img {
+  width: 120%;
+  height: 100%;
+}
+
+.img2 {
+  position: absolute;
+  left: -20%;
+  bottom: -50%;
+}
+
+.img1 {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+}
+
+.rectangulo {
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 10%;
+
+  z-index: 6;
+  bottom: 0;
+  left: 0;
+}
+
+.containerSponsor {
+  width: 100%;
+  height: 100%;
+
+  padding: 50px 0;
+
+  transform: translateY(-50%);
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+
+  background: white;
+  border-radius: 20px;
+
+  border-bottom: 1px solid gray;
+}
