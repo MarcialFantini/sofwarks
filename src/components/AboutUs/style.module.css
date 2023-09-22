@@ -1,12 +1,11 @@
 .containerAbout {
-  width: 90%;
+  width: 80%;
   max-width: 1200px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
   gap: 30px;
-  padding: 30px;
 }
 
 .containerPicture {

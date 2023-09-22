@@ -1,0 +1,21 @@
+.containerFooter {
+  width: 100%;
+  background: #24a556;
+  padding: 80px 0;
+}
+
+.containerMax {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  max-width: 400px;
+  color: white;
+}

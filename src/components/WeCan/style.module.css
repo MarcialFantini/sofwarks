@@ -1,0 +1,89 @@
+.weCanContainer {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: 50px auto;
+
+  background: #3f3f3f;
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.containerTitle {
+  width: 100%;
+  height: auto;
+
+  min-height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.title {
+  font-size: 4rem;
+  max-width: 220px;
+  color: white;
+  transition: all 0.3s;
+
+  position: relative;
+  z-index: 9;
+}
+
+.containerList {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+}
+
+.containerList li {
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 80%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+
+  display: flex;
+  align-items: center;
+
+  margin: auto;
+
+  font-size: 2.4rem;
+
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+
+.containerList li:hover {
+  color: white;
+}
+
+.containerList :last-child {
+  border: none;
+}
+
+.picture1,
+.picture2 {
+  position: absolute;
+}
+
+.picture1 {
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+}
+
+.picture2 {
+  left: 0px;
+  top: 10px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
