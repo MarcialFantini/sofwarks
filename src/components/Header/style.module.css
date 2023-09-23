@@ -36,10 +36,18 @@
 }
 
 .containerTitle {
+  position: absolute;
   width: 100%;
-  max-width: 600px;
+  height: 100%;
 
   margin-left: auto;
+  z-index: 9;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -112,6 +120,11 @@
 
   overflow: hidden;
 }
+
+.imgSpan {
+  transform: translateY(15px);
+}
+
 @media (max-width: 768px) {
   .containerSponsor picture {
     width: 10%;

@@ -23,18 +23,17 @@ function Header() {
       <picture className={style.lines}>
         <img src={lines2} alt="" className={style.img2} />
       </picture>
-      <div className={style.cube}>
-        <div className={style.containerTitle}>
-          <h1 className={style.title}>
-            Lets make{" "}
-            <span className={style.span}>
-              <picture className={style.pictureSpan}>
-                <img src={span} alt="" className={style.imgSpan} />
-              </picture>
-            </span>{" "}
-            software together!
-          </h1>
-        </div>
+
+      <div className={style.containerTitle}>
+        <h1 className={style.title}>
+          Lets make{" "}
+          <span className={style.span}>
+            <picture className={style.pictureSpan}>
+              <img src={span} alt="" className={style.imgSpan} />
+            </picture>
+          </span>{" "}
+          software together!
+        </h1>
       </div>
 
       <div className={style.rectangulo}>

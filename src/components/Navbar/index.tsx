@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 
-import srcSearch from "../../assets/header/search.svg";
+import srcSearch from "../../assets/header/search.png";
 import { useState } from "react";
 
 function Navbar() {
@@ -18,6 +18,7 @@ function Navbar() {
           <ul
             style={{
               transform: active ? " translate(120%)" : "",
+              opacity: active ? "0" : "1",
             }}
             className={style.list}
           >
