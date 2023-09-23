@@ -112,3 +112,14 @@
 
   overflow: hidden;
 }
+@media (max-width: 768px) {
+  .containerSponsor picture {
+    width: 10%;
+  }
+
+  .containerSponsor picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

@@ -16,8 +16,10 @@ function Navbar() {
         </h2>
         <nav className={style.nav}>
           <ul
-            style={{ transform: active ? " translate(120%)" : "" }}
-            className={style.list + " " + (active ? style.activeNav : "")}
+            style={{
+              transform: active ? " translate(120%)" : "",
+            }}
+            className={style.list}
           >
             <li>
               <a href="/">About</a>
